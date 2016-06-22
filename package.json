@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "Check digit calculator",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+"scripts": {
+  "test": "make test"
+},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmtavz/checkdigit-calculator.js.git"
   },
   "author": "CHEN,Zi-zhao",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmtavz/checkdigit-calculator.js/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
 }
